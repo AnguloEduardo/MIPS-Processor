@@ -1,0 +1,148 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Multiplexor_2a1_5bits.twx Multiplexor_2a1_5bits.ncd -o
+Multiplexor_2a1_5bits.twr Multiplexor_2a1_5bits.pcf
+
+Design file:              Multiplexor_2a1_5bits.ncd
+Physical constraint file: Multiplexor_2a1_5bits.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |C<0>           |   11.694|
+A<1>           |C<1>           |   11.643|
+A<2>           |C<2>           |   11.003|
+A<3>           |C<3>           |   11.149|
+A<4>           |C<4>           |   11.248|
+A<5>           |C<5>           |   11.314|
+A<6>           |C<6>           |   11.497|
+A<7>           |C<7>           |   11.538|
+A<8>           |C<8>           |   11.393|
+A<9>           |C<9>           |   12.060|
+A<10>          |C<10>          |   10.611|
+A<11>          |C<11>          |   10.262|
+A<12>          |C<12>          |   10.128|
+A<13>          |C<13>          |    9.948|
+A<14>          |C<14>          |   10.303|
+A<15>          |C<15>          |   10.199|
+A<16>          |C<16>          |   10.418|
+A<17>          |C<17>          |   10.122|
+A<18>          |C<18>          |    9.466|
+A<19>          |C<19>          |   10.030|
+A<20>          |C<20>          |    9.488|
+A<21>          |C<21>          |    9.279|
+A<22>          |C<22>          |    9.290|
+A<23>          |C<23>          |    9.008|
+A<24>          |C<24>          |    9.145|
+A<25>          |C<25>          |    9.865|
+A<26>          |C<26>          |    9.738|
+A<27>          |C<27>          |    9.716|
+A<28>          |C<28>          |    9.449|
+A<29>          |C<29>          |    9.331|
+A<30>          |C<30>          |   10.814|
+A<31>          |C<31>          |    9.586|
+B<0>           |C<0>           |   11.169|
+B<1>           |C<1>           |   10.833|
+B<2>           |C<2>           |   10.698|
+B<3>           |C<3>           |   10.909|
+B<4>           |C<4>           |   10.798|
+B<5>           |C<5>           |   10.836|
+B<6>           |C<6>           |   10.813|
+B<7>           |C<7>           |   10.789|
+B<8>           |C<8>           |   11.275|
+B<9>           |C<9>           |   11.210|
+B<10>          |C<10>          |   10.512|
+B<11>          |C<11>          |   10.468|
+B<12>          |C<12>          |   10.308|
+B<13>          |C<13>          |   10.200|
+B<14>          |C<14>          |   10.253|
+B<15>          |C<15>          |   10.381|
+B<16>          |C<16>          |   10.351|
+B<17>          |C<17>          |   10.302|
+B<18>          |C<18>          |   10.135|
+B<19>          |C<19>          |   10.015|
+B<20>          |C<20>          |   10.682|
+B<21>          |C<21>          |   10.346|
+B<22>          |C<22>          |   10.711|
+B<23>          |C<23>          |   10.282|
+B<24>          |C<24>          |   10.279|
+B<25>          |C<25>          |   10.204|
+B<26>          |C<26>          |   10.420|
+B<27>          |C<27>          |   10.300|
+B<28>          |C<28>          |   10.428|
+B<29>          |C<29>          |   10.522|
+B<30>          |C<30>          |   10.515|
+B<31>          |C<31>          |   10.116|
+D              |C<0>           |   11.874|
+D              |C<1>           |   11.522|
+D              |C<2>           |   11.736|
+D              |C<3>           |   12.191|
+D              |C<4>           |   12.040|
+D              |C<5>           |   11.923|
+D              |C<6>           |   12.018|
+D              |C<7>           |   11.655|
+D              |C<8>           |   11.736|
+D              |C<9>           |   11.816|
+D              |C<10>          |   11.367|
+D              |C<11>          |   11.135|
+D              |C<12>          |   11.002|
+D              |C<13>          |   10.644|
+D              |C<14>          |   10.454|
+D              |C<15>          |   10.525|
+D              |C<16>          |   10.484|
+D              |C<17>          |   10.904|
+D              |C<18>          |   10.259|
+D              |C<19>          |   10.325|
+D              |C<20>          |   10.546|
+D              |C<21>          |   10.765|
+D              |C<22>          |   10.702|
+D              |C<23>          |   10.247|
+D              |C<24>          |   10.588|
+D              |C<25>          |   10.355|
+D              |C<26>          |   10.212|
+D              |C<27>          |   10.519|
+D              |C<28>          |   10.468|
+D              |C<29>          |   10.822|
+D              |C<30>          |   10.565|
+D              |C<31>          |   10.623|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Aug 22 20:53:51 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 388 MB
+
+
+

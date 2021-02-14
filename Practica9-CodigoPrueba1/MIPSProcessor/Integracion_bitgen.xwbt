@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\LabArqui\Practica9\MIPSProcessor\Integracion.ncd
+OUTFILE=E:\LabArqui\Practica9\MIPSProcessor\Integracion.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=E:\LabArqui\Practica9\MIPSProcessor
+LICENSE=WebPack
+USER_INFO=211463621_0_0_117

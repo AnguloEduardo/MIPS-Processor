@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "F:/Lab Arqui/Practica 3/MemoriaRAM/RAM_TestBench_isim_beh.exe" -prj "F:/Lab Arqui/Practica 3/MemoriaRAM/RAM_TestBench_beh.prj" "work.RAM_TestBench" 

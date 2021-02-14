@@ -1,0 +1,21 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "E:/LabArqui/Practica 7/ALUControl/ALUControlTB_isim_beh.exe" -prj "E:/LabArqui/Practica 7/ALUControl/ALUControlTB_beh.prj" "work.ALUControlTB" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/LabArqui/Practica 7/ALUControl/ALUControl.vhd" into library work
+Parsing VHDL file "E:/LabArqui/Practica 7/ALUControl/ALUControl-TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 79316 KB
+Fuse CPU Usage: 420 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity ALUControl [alucontrol_default]
+Compiling architecture behavior of entity alucontroltb
+Time Resolution for simulation is 1ps.
+Compiled 6 VHDL Units
+Built simulation executable E:/LabArqui/Practica 7/ALUControl/ALUControlTB_isim_beh.exe
+Fuse Memory Usage: 92696 KB
+Fuse CPU Usage: 640 ms

@@ -1,0 +1,16 @@
+Practica5
+E:\Practica5\
+Objects\
+1
+E:\PRACTICA5\ex1.s
+0
+0
+1
+minic
+0
+0
+0
+0
+1
+objcopy.exe -O srec Practica5.out Practica5.srec
+80020000 start

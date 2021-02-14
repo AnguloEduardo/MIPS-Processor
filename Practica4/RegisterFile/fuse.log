@@ -1,0 +1,30 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o F:/Lab Arqui/Practica 4/RegisterFile/TestBenchGeneral_isim_beh.exe -prj F:/Lab Arqui/Practica 4/RegisterFile/TestBenchGeneral_beh.prj work.TestBenchGeneral 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "F:/Lab Arqui/Practica 4/RegisterFile/FlipFlopD.vhd" into library work
+Parsing VHDL file "F:/Lab Arqui/Practica 4/RegisterFile/RegistroPrueba.vhd" into library work
+Parsing VHDL file "F:/Lab Arqui/Practica 4/RegisterFile/register.vhd" into library work
+Parsing VHDL file "F:/Lab Arqui/Practica 4/RegisterFile/mux32.vhd" into library work
+Parsing VHDL file "F:/Lab Arqui/Practica 4/RegisterFile/decoder.vhd" into library work
+Parsing VHDL file "F:/Lab Arqui/Practica 4/RegisterFile/RegisterFile.vhd" into library work
+Parsing VHDL file "F:/Lab Arqui/Practica 4/RegisterFile/TestBenchGeneral.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 78288 KB
+Fuse CPU Usage: 240 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity decoder [decoder_default]
+Compiling architecture behavioral of entity FlipFlopD [flipflopd_default]
+Compiling architecture behavioral of entity Registro32bits [registro32bits_default]
+Compiling architecture behavioral of entity BancoRegistros [bancoregistros_default]
+Compiling architecture behavioral of entity mux32 [mux32_default]
+Compiling architecture behavioral of entity RegisterFile [registerfile_default]
+Compiling architecture behavior of entity testbenchgeneral
+Time Resolution for simulation is 1ps.
+Compiled 15 VHDL Units
+Built simulation executable F:/Lab Arqui/Practica 4/RegisterFile/TestBenchGeneral_isim_beh.exe
+Fuse Memory Usage: 87124 KB
+Fuse CPU Usage: 280 ms

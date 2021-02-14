@@ -1,0 +1,70 @@
+xst -intstyle ise -ifn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+xst -intstyle ise -ifn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+xst -intstyle ise -ifn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+xst -intstyle ise -ifn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+xst -intstyle ise -ifn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+xst -intstyle ise -ifn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Shitf_Left_2bits_32.ngc" Shitf_Left_2bits_32.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ngd Shitf_Left_2bits_32.pcf 
+par -w -intstyle ise -ol high -mt off Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ncd Shitf_Left_2bits_32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Shitf_Left_2bits_32.twx Shitf_Left_2bits_32.ncd -o Shitf_Left_2bits_32.twr Shitf_Left_2bits_32.pcf 
+xst -intstyle ise -ifn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Shitf_Left_2bits_32.ngc" Shitf_Left_2bits_32.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ngd Shitf_Left_2bits_32.pcf 
+par -w -intstyle ise -ol high -mt off Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ncd Shitf_Left_2bits_32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Shitf_Left_2bits_32.twx Shitf_Left_2bits_32.ncd -o Shitf_Left_2bits_32.twr Shitf_Left_2bits_32.pcf 
+xst -intstyle ise -ifn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+xst -intstyle ise -ifn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Shitf_Left_2bits_32.ngc" Shitf_Left_2bits_32.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ngd Shitf_Left_2bits_32.pcf 
+par -w -intstyle ise -ol high -mt off Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ncd Shitf_Left_2bits_32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Shitf_Left_2bits_32.twx Shitf_Left_2bits_32.ncd -o Shitf_Left_2bits_32.twr Shitf_Left_2bits_32.pcf 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Shitf_Left_2bits_32.ngc" Shitf_Left_2bits_32.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ngd Shitf_Left_2bits_32.pcf 
+par -w -intstyle ise -ol high -mt off Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ncd Shitf_Left_2bits_32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Shitf_Left_2bits_32.twx Shitf_Left_2bits_32.ncd -o Shitf_Left_2bits_32.twr Shitf_Left_2bits_32.pcf 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Shitf_Left_2bits_32.ngc" Shitf_Left_2bits_32.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ngd Shitf_Left_2bits_32.pcf 
+par -w -intstyle ise -ol high -mt off Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ncd Shitf_Left_2bits_32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Shitf_Left_2bits_32.twx Shitf_Left_2bits_32.ncd -o Shitf_Left_2bits_32.twr Shitf_Left_2bits_32.pcf 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Shitf_Left_2bits_32.ngc" Shitf_Left_2bits_32.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ngd Shitf_Left_2bits_32.pcf 
+par -w -intstyle ise -ol high -mt off Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ncd Shitf_Left_2bits_32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Shitf_Left_2bits_32.twx Shitf_Left_2bits_32.ncd -o Shitf_Left_2bits_32.twr Shitf_Left_2bits_32.pcf 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Shitf_Left_2bits_32.ngc" Shitf_Left_2bits_32.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ngd Shitf_Left_2bits_32.pcf 
+par -w -intstyle ise -ol high -mt off Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ncd Shitf_Left_2bits_32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Shitf_Left_2bits_32.twx Shitf_Left_2bits_32.ncd -o Shitf_Left_2bits_32.twr Shitf_Left_2bits_32.pcf 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Shitf_Left_2bits_32.ngc" Shitf_Left_2bits_32.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ngd Shitf_Left_2bits_32.pcf 
+par -w -intstyle ise -ol high -mt off Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ncd Shitf_Left_2bits_32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Shitf_Left_2bits_32.twx Shitf_Left_2bits_32.ncd -o Shitf_Left_2bits_32.twr Shitf_Left_2bits_32.pcf 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Shitf_Left_2bits_32.ngc" Shitf_Left_2bits_32.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ngd Shitf_Left_2bits_32.pcf 
+par -w -intstyle ise -ol high -mt off Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ncd Shitf_Left_2bits_32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Shitf_Left_2bits_32.twx Shitf_Left_2bits_32.ncd -o Shitf_Left_2bits_32.twr Shitf_Left_2bits_32.pcf 
+xst -intstyle ise -ifn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "F:/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Shitf_Left_2bits_32.ngc" Shitf_Left_2bits_32.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ngd Shitf_Left_2bits_32.pcf 
+par -w -intstyle ise -ol high -mt off Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ncd Shitf_Left_2bits_32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Shitf_Left_2bits_32.twx Shitf_Left_2bits_32.ncd -o Shitf_Left_2bits_32.twr Shitf_Left_2bits_32.pcf 
+xst -intstyle ise -ifn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.xst" -ofn "/home/ise/Downloads/Lab Arqui/Shift_Left_2bits_32/Shitf_Left_2bits_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Shitf_Left_2bits_32.ngc" Shitf_Left_2bits_32.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ngd Shitf_Left_2bits_32.pcf 
+par -w -intstyle ise -ol high -mt off Shitf_Left_2bits_32_map.ncd Shitf_Left_2bits_32.ncd Shitf_Left_2bits_32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Shitf_Left_2bits_32.twx Shitf_Left_2bits_32.ncd -o Shitf_Left_2bits_32.twr Shitf_Left_2bits_32.pcf 

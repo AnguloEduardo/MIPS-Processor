@@ -1,0 +1,29 @@
+Command line:
+   Test_Bench_Shift_Left_2bits_32_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1066
+
+Sun Aug 23 19:22:56 2020
+
+
+ Elaboration Time: 0.060086 sec
+
+ Current Memory Usage: 484.184 Meg
+
+ Total Signals          : 6
+ Total Nets             : 128
+ Total Signal Drivers   : 4
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 2
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 629
+Total Line Count : 7
+
+ Total Simulation Time: 0.060086 sec
+
+ Current Memory Usage: 326.898 Meg
+
+Sun Aug 23 19:23:31 2020
+

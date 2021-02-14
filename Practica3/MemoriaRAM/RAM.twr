@@ -1,0 +1,360 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml RAM.twx RAM.ncd -o RAM.twr RAM.pcf
+
+Design file:              RAM.ncd
+Physical constraint file: RAM.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+--------------+------------+------------+------------+------------+------------------+--------+
+              |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source        | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+--------------+------------+------------+------------+------------+------------------+--------+
+READ_ENABLE   |    3.149(F)|      SLOW  |   -1.740(F)|      FAST  |CLK_BUFGP         |   0.000|
+RW_ADDRESS<2> |    3.235(F)|      SLOW  |   -1.656(F)|      FAST  |CLK_BUFGP         |   0.000|
+RW_ADDRESS<3> |    2.456(F)|      SLOW  |   -1.176(F)|      FAST  |CLK_BUFGP         |   0.000|
+RW_ADDRESS<4> |    2.916(F)|      SLOW  |   -1.343(F)|      FAST  |CLK_BUFGP         |   0.000|
+RW_ADDRESS<5> |    2.031(F)|      SLOW  |   -1.046(F)|      FAST  |CLK_BUFGP         |   0.000|
+RW_ADDRESS<6> |    2.994(F)|      SLOW  |   -1.443(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<0> |    2.197(F)|      SLOW  |   -1.383(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<1> |    2.064(F)|      SLOW  |   -1.271(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<2> |    2.165(F)|      SLOW  |   -1.309(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<3> |    1.955(F)|      SLOW  |   -1.190(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<4> |    2.130(F)|      SLOW  |   -1.311(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<5> |    1.877(F)|      SLOW  |   -1.151(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<6> |    1.673(F)|      SLOW  |   -1.023(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<7> |    2.092(F)|      SLOW  |   -1.311(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<8> |    2.074(F)|      SLOW  |   -1.277(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<9> |    1.717(F)|      SLOW  |   -1.017(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<10>|    1.951(F)|      SLOW  |   -1.195(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<11>|    1.849(F)|      SLOW  |   -1.084(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<12>|    1.896(F)|      SLOW  |   -1.163(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<13>|    1.898(F)|      SLOW  |   -1.172(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<14>|    2.071(F)|      SLOW  |   -1.244(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<15>|    1.990(F)|      SLOW  |   -1.197(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<16>|    2.207(F)|      SLOW  |   -1.336(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<17>|    1.992(F)|      SLOW  |   -1.223(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<18>|    2.009(F)|      SLOW  |   -1.240(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<19>|    1.696(F)|      SLOW  |   -0.977(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<20>|    1.767(F)|      SLOW  |   -1.071(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<21>|    1.986(F)|      SLOW  |   -1.196(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<22>|    2.024(F)|      SLOW  |   -1.236(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<23>|    1.917(F)|      SLOW  |   -1.151(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<24>|    1.750(F)|      SLOW  |   -1.014(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<25>|    1.527(F)|      SLOW  |   -0.897(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<26>|    2.415(F)|      SLOW  |   -1.636(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<27>|    1.800(F)|      SLOW  |   -1.090(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<28>|    1.779(F)|      SLOW  |   -1.032(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<29>|    1.594(F)|      SLOW  |   -0.924(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<30>|    2.101(F)|      SLOW  |   -1.329(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_DATA<31>|    1.923(F)|      SLOW  |   -1.227(F)|      FAST  |CLK_BUFGP         |   0.000|
+WRITE_ENABLE  |    3.205(F)|      SLOW  |   -1.696(F)|      FAST  |CLK_BUFGP         |   0.000|
+--------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination  |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+READ_DATA<0> |        10.742(F)|      SLOW  |         5.900(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<1> |        10.444(F)|      SLOW  |         5.631(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<2> |        10.495(F)|      SLOW  |         5.706(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<3> |        10.694(F)|      SLOW  |         5.817(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<4> |        10.296(F)|      SLOW  |         5.551(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<5> |        10.669(F)|      SLOW  |         5.857(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<6> |        10.671(F)|      SLOW  |         5.806(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<7> |        10.477(F)|      SLOW  |         5.722(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<8> |        10.193(F)|      SLOW  |         5.470(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<9> |        10.649(F)|      SLOW  |         5.792(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<10>|        10.520(F)|      SLOW  |         5.721(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<11>|        10.307(F)|      SLOW  |         5.544(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<12>|        10.581(F)|      SLOW  |         5.749(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<13>|         9.832(F)|      SLOW  |         5.299(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<14>|        10.325(F)|      SLOW  |         5.627(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<15>|        10.379(F)|      SLOW  |         5.608(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<16>|        10.168(F)|      SLOW  |         5.481(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<17>|        10.501(F)|      SLOW  |         5.732(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<18>|        10.517(F)|      SLOW  |         5.779(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<19>|        10.560(F)|      SLOW  |         5.792(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<20>|        10.510(F)|      SLOW  |         5.740(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<21>|        10.473(F)|      SLOW  |         5.734(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<22>|        10.546(F)|      SLOW  |         5.813(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<23>|        10.984(F)|      SLOW  |         6.054(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<24>|        11.243(F)|      SLOW  |         6.272(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<25>|        10.612(F)|      SLOW  |         5.790(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<26>|        10.779(F)|      SLOW  |         5.940(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<27>|        11.055(F)|      SLOW  |         6.192(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<28>|        10.220(F)|      SLOW  |         5.562(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<29>|        10.281(F)|      SLOW  |         5.532(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<30>|        10.535(F)|      SLOW  |         5.787(F)|      FAST  |CLK_BUFGP         |   0.000|
+READ_DATA<31>|        10.098(F)|      SLOW  |         5.477(F)|      FAST  |CLK_BUFGP         |   0.000|
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+READ_ENABLE    |READ_DATA<0>   |   10.351|
+READ_ENABLE    |READ_DATA<1>   |    9.840|
+READ_ENABLE    |READ_DATA<2>   |   10.287|
+READ_ENABLE    |READ_DATA<3>   |   10.200|
+READ_ENABLE    |READ_DATA<4>   |   10.189|
+READ_ENABLE    |READ_DATA<5>   |   10.111|
+READ_ENABLE    |READ_DATA<6>   |   10.484|
+READ_ENABLE    |READ_DATA<7>   |   10.195|
+READ_ENABLE    |READ_DATA<8>   |   10.091|
+READ_ENABLE    |READ_DATA<9>   |   10.210|
+READ_ENABLE    |READ_DATA<10>  |   10.552|
+READ_ENABLE    |READ_DATA<11>  |   10.189|
+READ_ENABLE    |READ_DATA<12>  |   10.385|
+READ_ENABLE    |READ_DATA<13>  |    9.814|
+READ_ENABLE    |READ_DATA<14>  |    9.995|
+READ_ENABLE    |READ_DATA<15>  |   10.669|
+READ_ENABLE    |READ_DATA<16>  |   10.533|
+READ_ENABLE    |READ_DATA<17>  |   10.512|
+READ_ENABLE    |READ_DATA<18>  |   10.230|
+READ_ENABLE    |READ_DATA<19>  |   10.188|
+READ_ENABLE    |READ_DATA<20>  |   10.430|
+READ_ENABLE    |READ_DATA<21>  |   10.539|
+READ_ENABLE    |READ_DATA<22>  |   10.540|
+READ_ENABLE    |READ_DATA<23>  |   10.456|
+READ_ENABLE    |READ_DATA<24>  |   10.691|
+READ_ENABLE    |READ_DATA<25>  |   10.905|
+READ_ENABLE    |READ_DATA<26>  |   10.905|
+READ_ENABLE    |READ_DATA<27>  |   10.795|
+READ_ENABLE    |READ_DATA<28>  |   10.046|
+READ_ENABLE    |READ_DATA<29>  |   10.302|
+READ_ENABLE    |READ_DATA<30>  |   10.641|
+READ_ENABLE    |READ_DATA<31>  |   10.070|
+RW_ADDRESS<2>  |READ_DATA<0>   |   13.247|
+RW_ADDRESS<2>  |READ_DATA<1>   |   12.939|
+RW_ADDRESS<2>  |READ_DATA<2>   |   12.718|
+RW_ADDRESS<2>  |READ_DATA<3>   |   12.965|
+RW_ADDRESS<2>  |READ_DATA<4>   |   12.855|
+RW_ADDRESS<2>  |READ_DATA<5>   |   13.251|
+RW_ADDRESS<2>  |READ_DATA<6>   |   13.126|
+RW_ADDRESS<2>  |READ_DATA<7>   |   12.518|
+RW_ADDRESS<2>  |READ_DATA<8>   |   12.224|
+RW_ADDRESS<2>  |READ_DATA<9>   |   13.106|
+RW_ADDRESS<2>  |READ_DATA<10>  |   12.646|
+RW_ADDRESS<2>  |READ_DATA<11>  |   12.481|
+RW_ADDRESS<2>  |READ_DATA<12>  |   12.670|
+RW_ADDRESS<2>  |READ_DATA<13>  |   11.875|
+RW_ADDRESS<2>  |READ_DATA<14>  |   12.358|
+RW_ADDRESS<2>  |READ_DATA<15>  |   12.313|
+RW_ADDRESS<2>  |READ_DATA<16>  |   12.729|
+RW_ADDRESS<2>  |READ_DATA<17>  |   13.072|
+RW_ADDRESS<2>  |READ_DATA<18>  |   13.022|
+RW_ADDRESS<2>  |READ_DATA<19>  |   12.672|
+RW_ADDRESS<2>  |READ_DATA<20>  |   12.556|
+RW_ADDRESS<2>  |READ_DATA<21>  |   12.455|
+RW_ADDRESS<2>  |READ_DATA<22>  |   12.364|
+RW_ADDRESS<2>  |READ_DATA<23>  |   12.825|
+RW_ADDRESS<2>  |READ_DATA<24>  |   13.796|
+RW_ADDRESS<2>  |READ_DATA<25>  |   12.572|
+RW_ADDRESS<2>  |READ_DATA<26>  |   12.762|
+RW_ADDRESS<2>  |READ_DATA<27>  |   13.631|
+RW_ADDRESS<2>  |READ_DATA<28>  |   12.798|
+RW_ADDRESS<2>  |READ_DATA<29>  |   12.329|
+RW_ADDRESS<2>  |READ_DATA<30>  |   12.368|
+RW_ADDRESS<2>  |READ_DATA<31>  |   11.933|
+RW_ADDRESS<3>  |READ_DATA<0>   |   12.545|
+RW_ADDRESS<3>  |READ_DATA<1>   |   12.237|
+RW_ADDRESS<3>  |READ_DATA<2>   |   11.805|
+RW_ADDRESS<3>  |READ_DATA<3>   |   12.052|
+RW_ADDRESS<3>  |READ_DATA<4>   |   11.925|
+RW_ADDRESS<3>  |READ_DATA<5>   |   12.321|
+RW_ADDRESS<3>  |READ_DATA<6>   |   12.308|
+RW_ADDRESS<3>  |READ_DATA<7>   |   11.789|
+RW_ADDRESS<3>  |READ_DATA<8>   |   11.495|
+RW_ADDRESS<3>  |READ_DATA<9>   |   12.288|
+RW_ADDRESS<3>  |READ_DATA<10>  |   11.800|
+RW_ADDRESS<3>  |READ_DATA<11>  |   11.635|
+RW_ADDRESS<3>  |READ_DATA<12>  |   11.697|
+RW_ADDRESS<3>  |READ_DATA<13>  |   11.505|
+RW_ADDRESS<3>  |READ_DATA<14>  |   11.988|
+RW_ADDRESS<3>  |READ_DATA<15>  |   11.403|
+RW_ADDRESS<3>  |READ_DATA<16>  |   11.671|
+RW_ADDRESS<3>  |READ_DATA<17>  |   12.014|
+RW_ADDRESS<3>  |READ_DATA<18>  |   11.504|
+RW_ADDRESS<3>  |READ_DATA<19>  |   11.699|
+RW_ADDRESS<3>  |READ_DATA<20>  |   11.634|
+RW_ADDRESS<3>  |READ_DATA<21>  |   11.545|
+RW_ADDRESS<3>  |READ_DATA<22>  |   11.436|
+RW_ADDRESS<3>  |READ_DATA<23>  |   11.897|
+RW_ADDRESS<3>  |READ_DATA<24>  |   12.278|
+RW_ADDRESS<3>  |READ_DATA<25>  |   11.853|
+RW_ADDRESS<3>  |READ_DATA<26>  |   12.043|
+RW_ADDRESS<3>  |READ_DATA<27>  |   12.304|
+RW_ADDRESS<3>  |READ_DATA<28>  |   11.471|
+RW_ADDRESS<3>  |READ_DATA<29>  |   11.407|
+RW_ADDRESS<3>  |READ_DATA<30>  |   11.433|
+RW_ADDRESS<3>  |READ_DATA<31>  |   10.998|
+RW_ADDRESS<4>  |READ_DATA<0>   |   12.825|
+RW_ADDRESS<4>  |READ_DATA<1>   |   12.517|
+RW_ADDRESS<4>  |READ_DATA<2>   |   12.554|
+RW_ADDRESS<4>  |READ_DATA<3>   |   12.801|
+RW_ADDRESS<4>  |READ_DATA<4>   |   12.065|
+RW_ADDRESS<4>  |READ_DATA<5>   |   12.461|
+RW_ADDRESS<4>  |READ_DATA<6>   |   12.411|
+RW_ADDRESS<4>  |READ_DATA<7>   |   12.089|
+RW_ADDRESS<4>  |READ_DATA<8>   |   11.795|
+RW_ADDRESS<4>  |READ_DATA<9>   |   12.391|
+RW_ADDRESS<4>  |READ_DATA<10>  |   12.283|
+RW_ADDRESS<4>  |READ_DATA<11>  |   12.118|
+RW_ADDRESS<4>  |READ_DATA<12>  |   12.236|
+RW_ADDRESS<4>  |READ_DATA<13>  |   11.257|
+RW_ADDRESS<4>  |READ_DATA<14>  |   11.740|
+RW_ADDRESS<4>  |READ_DATA<15>  |   11.772|
+RW_ADDRESS<4>  |READ_DATA<16>  |   11.743|
+RW_ADDRESS<4>  |READ_DATA<17>  |   12.086|
+RW_ADDRESS<4>  |READ_DATA<18>  |   12.078|
+RW_ADDRESS<4>  |READ_DATA<19>  |   12.238|
+RW_ADDRESS<4>  |READ_DATA<20>  |   12.136|
+RW_ADDRESS<4>  |READ_DATA<21>  |   11.914|
+RW_ADDRESS<4>  |READ_DATA<22>  |   12.020|
+RW_ADDRESS<4>  |READ_DATA<23>  |   12.481|
+RW_ADDRESS<4>  |READ_DATA<24>  |   12.852|
+RW_ADDRESS<4>  |READ_DATA<25>  |   12.089|
+RW_ADDRESS<4>  |READ_DATA<26>  |   12.279|
+RW_ADDRESS<4>  |READ_DATA<27>  |   12.503|
+RW_ADDRESS<4>  |READ_DATA<28>  |   11.670|
+RW_ADDRESS<4>  |READ_DATA<29>  |   11.909|
+RW_ADDRESS<4>  |READ_DATA<30>  |   11.980|
+RW_ADDRESS<4>  |READ_DATA<31>  |   11.545|
+RW_ADDRESS<5>  |READ_DATA<0>   |   11.860|
+RW_ADDRESS<5>  |READ_DATA<1>   |   11.552|
+RW_ADDRESS<5>  |READ_DATA<2>   |   11.565|
+RW_ADDRESS<5>  |READ_DATA<3>   |   11.812|
+RW_ADDRESS<5>  |READ_DATA<4>   |   11.231|
+RW_ADDRESS<5>  |READ_DATA<5>   |   11.627|
+RW_ADDRESS<5>  |READ_DATA<6>   |   11.643|
+RW_ADDRESS<5>  |READ_DATA<7>   |   11.588|
+RW_ADDRESS<5>  |READ_DATA<8>   |   11.294|
+RW_ADDRESS<5>  |READ_DATA<9>   |   11.623|
+RW_ADDRESS<5>  |READ_DATA<10>  |   11.387|
+RW_ADDRESS<5>  |READ_DATA<11>  |   11.222|
+RW_ADDRESS<5>  |READ_DATA<12>  |   11.509|
+RW_ADDRESS<5>  |READ_DATA<13>  |   10.667|
+RW_ADDRESS<5>  |READ_DATA<14>  |   11.150|
+RW_ADDRESS<5>  |READ_DATA<15>  |   11.176|
+RW_ADDRESS<5>  |READ_DATA<16>  |   11.157|
+RW_ADDRESS<5>  |READ_DATA<17>  |   11.500|
+RW_ADDRESS<5>  |READ_DATA<18>  |   11.596|
+RW_ADDRESS<5>  |READ_DATA<19>  |   11.511|
+RW_ADDRESS<5>  |READ_DATA<20>  |   11.475|
+RW_ADDRESS<5>  |READ_DATA<21>  |   11.318|
+RW_ADDRESS<5>  |READ_DATA<22>  |   11.198|
+RW_ADDRESS<5>  |READ_DATA<23>  |   11.659|
+RW_ADDRESS<5>  |READ_DATA<24>  |   12.370|
+RW_ADDRESS<5>  |READ_DATA<25>  |   11.267|
+RW_ADDRESS<5>  |READ_DATA<26>  |   11.457|
+RW_ADDRESS<5>  |READ_DATA<27>  |   11.747|
+RW_ADDRESS<5>  |READ_DATA<28>  |   10.914|
+RW_ADDRESS<5>  |READ_DATA<29>  |   11.248|
+RW_ADDRESS<5>  |READ_DATA<30>  |   11.224|
+RW_ADDRESS<5>  |READ_DATA<31>  |   10.789|
+RW_ADDRESS<6>  |READ_DATA<0>   |   12.810|
+RW_ADDRESS<6>  |READ_DATA<1>   |   12.502|
+RW_ADDRESS<6>  |READ_DATA<2>   |   12.686|
+RW_ADDRESS<6>  |READ_DATA<3>   |   12.933|
+RW_ADDRESS<6>  |READ_DATA<4>   |   12.337|
+RW_ADDRESS<6>  |READ_DATA<5>   |   12.733|
+RW_ADDRESS<6>  |READ_DATA<6>   |   12.779|
+RW_ADDRESS<6>  |READ_DATA<7>   |   12.153|
+RW_ADDRESS<6>  |READ_DATA<8>   |   11.859|
+RW_ADDRESS<6>  |READ_DATA<9>   |   12.759|
+RW_ADDRESS<6>  |READ_DATA<10>  |   12.319|
+RW_ADDRESS<6>  |READ_DATA<11>  |   12.154|
+RW_ADDRESS<6>  |READ_DATA<12>  |   12.163|
+RW_ADDRESS<6>  |READ_DATA<13>  |   11.276|
+RW_ADDRESS<6>  |READ_DATA<14>  |   11.759|
+RW_ADDRESS<6>  |READ_DATA<15>  |   11.946|
+RW_ADDRESS<6>  |READ_DATA<16>  |   11.937|
+RW_ADDRESS<6>  |READ_DATA<17>  |   12.280|
+RW_ADDRESS<6>  |READ_DATA<18>  |   12.085|
+RW_ADDRESS<6>  |READ_DATA<19>  |   12.165|
+RW_ADDRESS<6>  |READ_DATA<20>  |   12.226|
+RW_ADDRESS<6>  |READ_DATA<21>  |   12.088|
+RW_ADDRESS<6>  |READ_DATA<22>  |   12.234|
+RW_ADDRESS<6>  |READ_DATA<23>  |   12.695|
+RW_ADDRESS<6>  |READ_DATA<24>  |   12.859|
+RW_ADDRESS<6>  |READ_DATA<25>  |   12.197|
+RW_ADDRESS<6>  |READ_DATA<26>  |   12.387|
+RW_ADDRESS<6>  |READ_DATA<27>  |   12.707|
+RW_ADDRESS<6>  |READ_DATA<28>  |   11.874|
+RW_ADDRESS<6>  |READ_DATA<29>  |   11.999|
+RW_ADDRESS<6>  |READ_DATA<30>  |   12.019|
+RW_ADDRESS<6>  |READ_DATA<31>  |   11.584|
+WRITE_ENABLE   |READ_DATA<0>   |   10.724|
+WRITE_ENABLE   |READ_DATA<1>   |   10.279|
+WRITE_ENABLE   |READ_DATA<2>   |   10.259|
+WRITE_ENABLE   |READ_DATA<3>   |   10.640|
+WRITE_ENABLE   |READ_DATA<4>   |   10.629|
+WRITE_ENABLE   |READ_DATA<5>   |   10.464|
+WRITE_ENABLE   |READ_DATA<6>   |   10.837|
+WRITE_ENABLE   |READ_DATA<7>   |   10.270|
+WRITE_ENABLE   |READ_DATA<8>   |   10.166|
+WRITE_ENABLE   |READ_DATA<9>   |   10.145|
+WRITE_ENABLE   |READ_DATA<10>  |   10.925|
+WRITE_ENABLE   |READ_DATA<11>  |   10.207|
+WRITE_ENABLE   |READ_DATA<12>  |   10.403|
+WRITE_ENABLE   |READ_DATA<13>  |   10.182|
+WRITE_ENABLE   |READ_DATA<14>  |   10.363|
+WRITE_ENABLE   |READ_DATA<15>  |   10.671|
+WRITE_ENABLE   |READ_DATA<16>  |   10.535|
+WRITE_ENABLE   |READ_DATA<17>  |   10.447|
+WRITE_ENABLE   |READ_DATA<18>  |   10.700|
+WRITE_ENABLE   |READ_DATA<19>  |   10.658|
+WRITE_ENABLE   |READ_DATA<20>  |   10.869|
+WRITE_ENABLE   |READ_DATA<21>  |   10.855|
+WRITE_ENABLE   |READ_DATA<22>  |   10.856|
+WRITE_ENABLE   |READ_DATA<23>  |   11.027|
+WRITE_ENABLE   |READ_DATA<24>  |   11.262|
+WRITE_ENABLE   |READ_DATA<25>  |   11.119|
+WRITE_ENABLE   |READ_DATA<26>  |   11.119|
+WRITE_ENABLE   |READ_DATA<27>  |   11.248|
+WRITE_ENABLE   |READ_DATA<28>  |   10.499|
+WRITE_ENABLE   |READ_DATA<29>  |   10.274|
+WRITE_ENABLE   |READ_DATA<30>  |   10.438|
+WRITE_ENABLE   |READ_DATA<31>  |    9.867|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Sep 08 11:54:12 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 145 MB
+
+
+

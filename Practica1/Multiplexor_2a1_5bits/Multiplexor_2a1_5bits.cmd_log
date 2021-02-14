@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "F:/Lab Arqui/Multiplexor_2a1_5bits/Multiplexor_2a1_5bits.xst" -ofn "F:/Lab Arqui/Multiplexor_2a1_5bits/Multiplexor_2a1_5bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Multiplexor_2a1_5bits.ngc" Multiplexor_2a1_5bits.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplexor_2a1_5bits_map.ncd Multiplexor_2a1_5bits.ngd Multiplexor_2a1_5bits.pcf 
+par -w -intstyle ise -ol high -mt off Multiplexor_2a1_5bits_map.ncd Multiplexor_2a1_5bits.ncd Multiplexor_2a1_5bits.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplexor_2a1_5bits.twx Multiplexor_2a1_5bits.ncd -o Multiplexor_2a1_5bits.twr Multiplexor_2a1_5bits.pcf 
+xst -intstyle ise -ifn "F:/Lab Arqui/Multiplexor_2a1_5bits/Multiplexor_2a1_5bits.xst" -ofn "F:/Lab Arqui/Multiplexor_2a1_5bits/Multiplexor_2a1_5bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Multiplexor_2a1_5bits.ngc" Multiplexor_2a1_5bits.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplexor_2a1_5bits_map.ncd Multiplexor_2a1_5bits.ngd Multiplexor_2a1_5bits.pcf 
+par -w -intstyle ise -ol high -mt off Multiplexor_2a1_5bits_map.ncd Multiplexor_2a1_5bits.ncd Multiplexor_2a1_5bits.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplexor_2a1_5bits.twx Multiplexor_2a1_5bits.ncd -o Multiplexor_2a1_5bits.twr Multiplexor_2a1_5bits.pcf 

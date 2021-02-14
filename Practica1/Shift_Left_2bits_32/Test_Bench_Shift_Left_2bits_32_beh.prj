@@ -1,0 +1,2 @@
+vhdl work "Shitf_Left_2bits_32.vhd"
+vhdl work "Test_Bench_Shift_Left_2bits_32.vhd"

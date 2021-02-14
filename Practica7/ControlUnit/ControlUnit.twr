@@ -1,0 +1,118 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr
+ControlUnit.pcf
+
+Design file:              ControlUnit.ncd
+Physical constraint file: ControlUnit.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+opCode<0>      |ALUSrc         |    6.719|
+opCode<0>      |ALUop<0>       |    6.919|
+opCode<0>      |ALUop<1>       |    6.459|
+opCode<0>      |ALUop<2>       |    6.480|
+opCode<0>      |Branch         |    6.646|
+opCode<0>      |Jump           |    6.483|
+opCode<0>      |MemRead        |    6.584|
+opCode<0>      |MemToReg       |    6.584|
+opCode<0>      |MemWrite       |    6.583|
+opCode<0>      |RegDst         |    6.919|
+opCode<0>      |RegWrite       |    6.895|
+opCode<1>      |ALUSrc         |    6.362|
+opCode<1>      |ALUop<0>       |    6.470|
+opCode<1>      |ALUop<1>       |    6.349|
+opCode<1>      |ALUop<2>       |    6.537|
+opCode<1>      |Branch         |    6.570|
+opCode<1>      |Jump           |    6.781|
+opCode<1>      |MemRead        |    6.708|
+opCode<1>      |MemToReg       |    6.708|
+opCode<1>      |MemWrite       |    6.624|
+opCode<1>      |RegDst         |    6.470|
+opCode<1>      |RegWrite       |    6.848|
+opCode<2>      |ALUSrc         |    6.481|
+opCode<2>      |ALUop<0>       |    6.312|
+opCode<2>      |ALUop<1>       |    6.806|
+opCode<2>      |ALUop<2>       |    6.291|
+opCode<2>      |Branch         |    6.318|
+opCode<2>      |Jump           |    6.375|
+opCode<2>      |MemRead        |    6.261|
+opCode<2>      |MemToReg       |    6.261|
+opCode<2>      |MemWrite       |    6.887|
+opCode<2>      |RegDst         |    6.876|
+opCode<2>      |RegWrite       |    6.597|
+opCode<3>      |ALUSrc         |    6.933|
+opCode<3>      |ALUop<0>       |    7.051|
+opCode<3>      |ALUop<1>       |    6.870|
+opCode<3>      |ALUop<2>       |    7.346|
+opCode<3>      |Branch         |    7.230|
+opCode<3>      |Jump           |    7.122|
+opCode<3>      |MemRead        |    6.839|
+opCode<3>      |MemToReg       |    6.839|
+opCode<3>      |MemWrite       |    7.141|
+opCode<3>      |RegDst         |    6.855|
+opCode<3>      |RegWrite       |    7.355|
+opCode<4>      |ALUSrc         |    6.720|
+opCode<4>      |ALUop<0>       |    6.542|
+opCode<4>      |ALUop<1>       |    6.666|
+opCode<4>      |ALUop<2>       |    6.510|
+opCode<4>      |Branch         |    6.923|
+opCode<4>      |Jump           |    6.748|
+opCode<4>      |MemRead        |    6.840|
+opCode<4>      |MemToReg       |    6.840|
+opCode<4>      |MemWrite       |    7.143|
+opCode<4>      |RegDst         |    6.678|
+opCode<4>      |RegWrite       |    6.876|
+opCode<5>      |ALUSrc         |    6.371|
+opCode<5>      |ALUop<0>       |    6.568|
+opCode<5>      |ALUop<1>       |    6.324|
+opCode<5>      |ALUop<2>       |    6.284|
+opCode<5>      |Branch         |    6.578|
+opCode<5>      |Jump           |    6.781|
+opCode<5>      |MemRead        |    6.543|
+opCode<5>      |MemToReg       |    6.543|
+opCode<5>      |MemWrite       |    6.880|
+opCode<5>      |RegDst         |    6.707|
+opCode<5>      |RegWrite       |    7.251|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Oct 25 18:16:42 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 143 MB
+
+
+

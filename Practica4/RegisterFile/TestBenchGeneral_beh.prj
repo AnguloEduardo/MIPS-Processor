@@ -1,0 +1,7 @@
+vhdl work "FlipFlopD.vhd"
+vhdl work "RegistroPrueba.vhd"
+vhdl work "register.vhd"
+vhdl work "mux32.vhd"
+vhdl work "decoder.vhd"
+vhdl work "RegisterFile.vhd"
+vhdl work "TestBenchGeneral.vhd"

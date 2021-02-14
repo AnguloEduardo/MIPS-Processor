@@ -1,0 +1,29 @@
+Command line:
+   Shitf_Left_2bits_32_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1062
+
+Sun Aug 23 19:19:03 2020
+
+
+ Elaboration Time: 0.050071 sec
+
+ Current Memory Usage: 476.844 Meg
+
+ Total Signals          : 4
+ Total Nets             : 128
+ Total Signal Drivers   : 3
+ Total Blocks           : 5
+ Total Primitive Blocks : 5
+ Total Processes        : 1
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 629
+Total Line Count : 3
+
+ Total Simulation Time: 0.050071 sec
+
+ Current Memory Usage: 319.558 Meg
+
+Sun Aug 23 19:19:12 2020
+

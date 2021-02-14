@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "F:/Lab Arqui/Practica 4/RegisterFile/RegisterFile.xst" -ofn "F:/Lab Arqui/Practica 4/RegisterFile/RegisterFile.syr" 
+xst -intstyle ise -ifn "F:/Lab Arqui/Practica 4/RegisterFile/RegisterFile.xst" -ofn "F:/Lab Arqui/Practica 4/RegisterFile/RegisterFile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "RegisterFile.ngc" RegisterFile.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RegisterFile_map.ncd RegisterFile.ngd RegisterFile.pcf 
+par -w -intstyle ise -ol high -mt off RegisterFile_map.ncd RegisterFile.ncd RegisterFile.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RegisterFile.twx RegisterFile.ncd -o RegisterFile.twr RegisterFile.pcf 
+bitgen -intstyle ise -f RegisterFile.ut RegisterFile.ncd 
+xst -intstyle ise -ifn "F:/Lab Arqui/Practica 4/RegisterFile/RegisterFile.xst" -ofn "F:/Lab Arqui/Practica 4/RegisterFile/RegisterFile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "RegisterFile.ngc" RegisterFile.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RegisterFile_map.ncd RegisterFile.ngd RegisterFile.pcf 
+par -w -intstyle ise -ol high -mt off RegisterFile_map.ncd RegisterFile.ncd RegisterFile.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RegisterFile.twx RegisterFile.ncd -o RegisterFile.twr RegisterFile.pcf 
+xst -intstyle ise -ifn "E:/LabArqui/Practica4/RegisterFile/RegisterFile.xst" -ofn "E:/LabArqui/Practica4/RegisterFile/RegisterFile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 RegisterFile.ngc RegisterFile.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RegisterFile_map.ncd RegisterFile.ngd RegisterFile.pcf 
+par -w -intstyle ise -ol high -mt off RegisterFile_map.ncd RegisterFile.ncd RegisterFile.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RegisterFile.twx RegisterFile.ncd -o RegisterFile.twr RegisterFile.pcf 

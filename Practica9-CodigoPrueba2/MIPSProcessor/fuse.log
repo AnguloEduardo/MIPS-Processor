@@ -1,0 +1,60 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/Documents/LabArqui/Practica8/MIPSProcessor/MIPS_TB_isim_beh.exe -prj /home/ise/Documents/LabArqui/Practica8/MIPSProcessor/MIPS_TB_beh.prj work.MIPS_TB 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/FlipFlopD.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/Registro32bits.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/mux32.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/Decoder.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/BancoRegistros.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/Sign_Extender.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/Shitf_Left_2bits_32.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/Shitf_Left_2bits.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/ROM.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/RegisterFile.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/RAM.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/Prgram_Counter.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/Multiplexor_2a1_5bits.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/Multiplexor_2a1_32bits.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/ControlUnit.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/ALUControl.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/ALU.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/Adder.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/Integracion.vhd" into library work
+Parsing VHDL file "/home/ise/Documents/LabArqui/Practica8/MIPSProcessor/MIPS-TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 99468 KB
+Fuse CPU Usage: 2510 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Program_Counter [program_counter_default]
+Compiling architecture behavioral of entity Adder [\Adder(32)\]
+Compiling architecture behavioral of entity Multiplexor_2a1_32bits [multiplexor_2a1_32bits_default]
+Compiling architecture behavioral of entity Shift_Left_2bits [shift_left_2bits_default]
+Compiling architecture behavioral of entity ROM [\ROM(32)\]
+Compiling architecture behavioral of entity Sign_Extender [sign_extender_default]
+Compiling architecture behavioral of entity Shift_Left_2bits_32 [shift_left_2bits_32_default]
+Compiling architecture behavioral of entity ControlUnit [controlunit_default]
+Compiling architecture behavioral of entity ALUControl [alucontrol_default]
+Compiling architecture behavioral of entity Multiplexor_2a1_5bits [multiplexor_2a1_5bits_default]
+Compiling architecture behavioral of entity decoder [decoder_default]
+Compiling architecture behavioral of entity FlipFlopD [flipflopd_default]
+Compiling architecture behavioral of entity Registro32bits [registro32bits_default]
+Compiling architecture behavioral of entity BancoRegistros [bancoregistros_default]
+Compiling architecture behavioral of entity mux32 [mux32_default]
+Compiling architecture behavioral of entity RegisterFile [registerfile_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity RAM [ram_default]
+Compiling architecture mips of entity Integracion [integracion_default]
+Compiling architecture behavior of entity mips_tb
+Time Resolution for simulation is 1ps.
+Compiled 44 VHDL Units
+Built simulation executable /home/ise/Documents/LabArqui/Practica8/MIPSProcessor/MIPS_TB_isim_beh.exe
+Fuse Memory Usage: 118232 KB
+Fuse CPU Usage: 3180 ms
+GCC CPU Usage: 1720 ms

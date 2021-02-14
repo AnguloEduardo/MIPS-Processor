@@ -1,0 +1,65 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml ROM.twx ROM.ncd -o ROM.twr ROM.pcf
+
+Design file:              ROM.ncd
+Physical constraint file: ROM.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+READ_ADDRESS<2>|INSTRUCTION<0> |    6.267|
+READ_ADDRESS<2>|INSTRUCTION<1> |    6.555|
+READ_ADDRESS<2>|INSTRUCTION<2> |    6.770|
+READ_ADDRESS<2>|INSTRUCTION<3> |    6.763|
+READ_ADDRESS<3>|INSTRUCTION<1> |    6.474|
+READ_ADDRESS<3>|INSTRUCTION<2> |    6.781|
+READ_ADDRESS<3>|INSTRUCTION<3> |    6.774|
+READ_ADDRESS<4>|INSTRUCTION<2> |    6.583|
+READ_ADDRESS<4>|INSTRUCTION<3> |    6.576|
+READ_ADDRESS<5>|INSTRUCTION<3> |    6.652|
+READ_ADDRESS<6>|INSTRUCTION<0> |    6.055|
+READ_ADDRESS<6>|INSTRUCTION<1> |    6.343|
+READ_ADDRESS<6>|INSTRUCTION<2> |    6.525|
+READ_ADDRESS<6>|INSTRUCTION<3> |    6.518|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Sep 08 11:57:16 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 143 MB
+
+
+

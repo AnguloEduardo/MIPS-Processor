@@ -1,0 +1,30 @@
+Command line:
+   BancoRegistros_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1066
+
+Mon Sep 21 22:45:17 2020
+
+
+ Elaboration Time: 0.080116 sec
+
+ Current Memory Usage: 487.158 Meg
+
+ Total Signals          : 4100
+ Total Nets             : 1088
+ Total Signal Drivers   : 996
+ Total Blocks           : 1026
+ Total Primitive Blocks : 993
+ Total Processes        : 995
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 1449
+Total Line Count : 2000
+Total Line Count : 2000
+
+ Total Simulation Time: 0.170245 sec
+
+ Current Memory Usage: 329.871 Meg
+
+Mon Sep 21 22:56:29 2020
+

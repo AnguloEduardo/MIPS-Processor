@@ -1,0 +1,368 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: RAM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "RAM.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "RAM"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : RAM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "\\vboxsrv\downloads\Lab Arqui\Practica 3\MemoriaRAM\RAM.vhd" into library work
+Parsing entity <RAM>.
+Parsing architecture <Behavioral> of entity <ram>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <RAM> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <RAM>.
+    Related source file is "\\vboxsrv\downloads\Lab Arqui\Practica 3\MemoriaRAM\RAM.vhd".
+WARNING:Xst:647 - Input <RW_ADDRESS<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <RW_ADDRESS<31:7>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32x32-bit single-port RAM <Mram_DataMem> for signal <DataMem>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   2 Multiplexer(s).
+Unit <RAM> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 32x32-bit single-port RAM                             : 1
+# Multiplexers                                         : 2
+ 32-bit 2-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <RAM>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_DataMem> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     clkA           | connected to signal <CLK>           | fall     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <RW_ADDRESS>    |          |
+    |     diA            | connected to signal <WRITE_DATA>    |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <RAM> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 32x32-bit single-port distributed RAM                 : 1
+# Multiplexers                                         : 2
+ 32-bit 2-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <RAM> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RAM, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : RAM.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 34
+#      INV                         : 1
+#      LUT2                        : 1
+#      LUT3                        : 32
+# RAMS                             : 32
+#      RAM32X1S                    : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 71
+#      IBUF                        : 39
+#      OBUF                        : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   66  out of   9112     0%  
+    Number used as Logic:                34  out of   9112     0%  
+    Number used as Memory:               32  out of   2176     1%  
+       Number used as RAM:               32
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     66
+   Number with an unused Flip Flop:      66  out of     66   100%  
+   Number with an unused LUT:             0  out of     66     0%  
+   Number of fully used LUT-FF pairs:     0  out of     66     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          99
+ Number of bonded IOBs:                  72  out of    232    31%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 32    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 4.431ns
+   Maximum output required time after clock: 4.789ns
+   Maximum combinational path delay: 6.653ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 256 / 224
+-------------------------------------------------------------------------
+Offset:              4.431ns (Levels of Logic = 2)
+  Source:            WRITE_ENABLE (PAD)
+  Destination:       Mram_DataMem1 (RAM)
+  Destination Clock: CLK falling
+
+  Data Path: WRITE_ENABLE to Mram_DataMem1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            33   1.222   1.410  WRITE_ENABLE_IBUF (WRITE_ENABLE_IBUF)
+     LUT2:I0->O           32   0.203   1.291  WRITE_ENABLE_READ_ENABLE_AND_2_o1 (WRITE_ENABLE_READ_ENABLE_AND_2_o)
+     RAM32X1S:WE               0.304          Mram_DataMem1
+    ----------------------------------------
+    Total                      4.431ns (1.729ns logic, 2.702ns route)
+                                       (39.0% logic, 61.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              4.789ns (Levels of Logic = 2)
+  Source:            Mram_DataMem32 (RAM)
+  Destination:       READ_DATA<31> (PAD)
+  Source Clock:      CLK falling
+
+  Data Path: Mram_DataMem32 to READ_DATA<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAM32X1S:WCLK->O      1   0.854   0.580  Mram_DataMem32 (_n0014<31>)
+     LUT3:I2->O            1   0.205   0.579  Mmux_READ_DATA251 (READ_DATA_31_OBUF)
+     OBUF:I->O                 2.571          READ_DATA_31_OBUF (READ_DATA<31>)
+    ----------------------------------------
+    Total                      4.789ns (3.630ns logic, 1.159ns route)
+                                       (75.8% logic, 24.2% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 224 / 32
+-------------------------------------------------------------------------
+Delay:               6.653ns (Levels of Logic = 4)
+  Source:            RW_ADDRESS<2> (PAD)
+  Destination:       READ_DATA<31> (PAD)
+
+  Data Path: RW_ADDRESS<2> to READ_DATA<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            32   1.222   1.291  RW_ADDRESS_2_IBUF (RW_ADDRESS_2_IBUF)
+     RAM32X1S:A0->O        1   0.205   0.580  Mram_DataMem1 (_n0014<0>)
+     LUT3:I2->O            1   0.205   0.579  Mmux_READ_DATA11 (READ_DATA_0_OBUF)
+     OBUF:I->O                 2.571          READ_DATA_0_OBUF (READ_DATA<0>)
+    ----------------------------------------
+    Total                      6.653ns (4.203ns logic, 2.450ns route)
+                                       (63.2% logic, 36.8% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.14 secs
+ 
+--> 
+
+Total memory usage is 147368 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

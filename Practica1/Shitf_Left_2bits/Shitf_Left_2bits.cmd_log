@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "F:/Lab Arqui/Shitf_Left_2bits/Shitf_Left_2bits.xst" -ofn "F:/Lab Arqui/Shitf_Left_2bits/Shitf_Left_2bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Shitf_Left_2bits.ngc" Shitf_Left_2bits.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Shitf_Left_2bits_map.ncd Shitf_Left_2bits.ngd Shitf_Left_2bits.pcf 
+par -w -intstyle ise -ol high -mt off Shitf_Left_2bits_map.ncd Shitf_Left_2bits.ncd Shitf_Left_2bits.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Shitf_Left_2bits.twx Shitf_Left_2bits.ncd -o Shitf_Left_2bits.twr Shitf_Left_2bits.pcf 

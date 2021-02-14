@@ -1,0 +1,21 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "F:/Lab Arqui/Practica 3/MemoriaRAM/RAM_TestBench_isim_beh.exe" -prj "F:/Lab Arqui/Practica 3/MemoriaRAM/RAM_TestBench_beh.prj" "work.RAM_TestBench" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "F:/Lab Arqui/Practica 3/MemoriaRAM/RAM.vhd" into library work
+Parsing VHDL file "F:/Lab Arqui/Practica 3/MemoriaRAM/RAM_TestBench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 79316 KB
+Fuse CPU Usage: 340 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity RAM [ram_default]
+Compiling architecture behavior of entity ram_testbench
+Time Resolution for simulation is 1ps.
+Compiled 6 VHDL Units
+Built simulation executable F:/Lab Arqui/Practica 3/MemoriaRAM/RAM_TestBench_isim_beh.exe
+Fuse Memory Usage: 92696 KB
+Fuse CPU Usage: 540 ms

@@ -1,0 +1,488 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml RegisterFile.twx RegisterFile.ncd -o RegisterFile.twr
+RegisterFile.pcf
+
+Design file:              RegisterFile.ncd
+Physical constraint file: RegisterFile.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+-------------+------------+------------+------------+------------+------------------+--------+
+             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source       | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+-------------+------------+------------+------------+------------+------------------+--------+
+RegWrite     |    7.526(F)|      SLOW  |   -1.466(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<0> |    3.969(F)|      SLOW  |   -0.946(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<1> |    6.000(F)|      SLOW  |   -2.039(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<2> |    3.969(F)|      SLOW  |   -1.056(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<3> |    5.787(F)|      SLOW  |   -1.209(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<4> |    4.286(F)|      SLOW  |   -1.132(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<5> |    4.415(F)|      SLOW  |   -1.138(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<6> |    5.854(F)|      SLOW  |   -1.103(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<7> |    4.739(F)|      SLOW  |   -0.867(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<8> |    4.732(F)|      SLOW  |   -1.116(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<9> |    4.900(F)|      SLOW  |   -0.961(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<10>|    5.255(F)|      SLOW  |   -0.913(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<11>|    6.487(F)|      SLOW  |   -0.966(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<12>|    5.142(F)|      SLOW  |   -1.192(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<13>|    6.780(F)|      SLOW  |   -1.122(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<14>|    4.294(F)|      SLOW  |   -1.199(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<15>|    3.930(F)|      SLOW  |   -1.066(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<16>|    3.947(F)|      SLOW  |   -1.131(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<17>|    3.749(F)|      SLOW  |   -0.976(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<18>|    5.074(F)|      SLOW  |   -1.214(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<19>|    5.298(F)|      SLOW  |   -1.740(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<20>|    4.938(F)|      SLOW  |   -1.130(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<21>|    4.984(F)|      SLOW  |   -1.067(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<22>|    5.155(F)|      SLOW  |   -2.325(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<23>|    5.902(F)|      SLOW  |   -2.405(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<24>|    4.836(F)|      SLOW  |   -1.374(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<25>|    5.483(F)|      SLOW  |   -1.847(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<26>|    7.278(F)|      SLOW  |   -1.238(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<27>|    6.449(F)|      SLOW  |   -0.966(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<28>|    5.269(F)|      SLOW  |   -2.166(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<29>|    4.682(F)|      SLOW  |   -2.207(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<30>|    5.325(F)|      SLOW  |   -1.935(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteData<31>|    5.987(F)|      SLOW  |   -1.652(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteReg<0>  |    7.885(F)|      SLOW  |   -2.218(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteReg<1>  |    8.245(F)|      SLOW  |   -2.350(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteReg<2>  |   10.205(F)|      SLOW  |   -2.884(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteReg<3>  |    7.499(F)|      SLOW  |   -1.998(F)|      FAST  |CLK_BUFGP         |   0.000|
+WriteReg<4>  |    9.233(F)|      SLOW  |   -2.891(F)|      FAST  |CLK_BUFGP         |   0.000|
+-------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination  |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+ReadData1<0> |        12.394(F)|      SLOW  |         6.079(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<1> |        13.146(F)|      SLOW  |         6.516(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<2> |        12.909(F)|      SLOW  |         6.029(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<3> |        12.644(F)|      SLOW  |         5.521(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<4> |        12.664(F)|      SLOW  |         5.872(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<5> |        12.559(F)|      SLOW  |         5.838(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<6> |        12.121(F)|      SLOW  |         5.743(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<7> |        12.852(F)|      SLOW  |         6.080(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<8> |        12.497(F)|      SLOW  |         5.903(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<9> |        12.442(F)|      SLOW  |         5.520(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<10>|        12.994(F)|      SLOW  |         5.961(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<11>|        12.993(F)|      SLOW  |         5.993(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<12>|        12.696(F)|      SLOW  |         6.063(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<13>|        12.939(F)|      SLOW  |         6.074(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<14>|        12.378(F)|      SLOW  |         5.617(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<15>|        11.589(F)|      SLOW  |         5.693(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<16>|        12.157(F)|      SLOW  |         5.674(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<17>|        11.960(F)|      SLOW  |         5.708(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<18>|        13.128(F)|      SLOW  |         6.114(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<19>|        12.694(F)|      SLOW  |         6.337(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<20>|        12.929(F)|      SLOW  |         6.358(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<21>|        12.856(F)|      SLOW  |         6.102(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<22>|        13.135(F)|      SLOW  |         6.360(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<23>|        13.163(F)|      SLOW  |         6.402(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<24>|        13.021(F)|      SLOW  |         6.273(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<25>|        13.091(F)|      SLOW  |         6.568(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<26>|        13.914(F)|      SLOW  |         6.721(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<27>|        13.859(F)|      SLOW  |         6.493(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<28>|        13.279(F)|      SLOW  |         6.359(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<29>|        12.929(F)|      SLOW  |         6.402(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<30>|        12.951(F)|      SLOW  |         6.578(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData1<31>|        13.030(F)|      SLOW  |         6.264(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<0> |        11.757(F)|      SLOW  |         5.856(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<1> |        12.166(F)|      SLOW  |         5.795(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<2> |        11.381(F)|      SLOW  |         5.282(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<3> |        11.859(F)|      SLOW  |         5.350(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<4> |        11.928(F)|      SLOW  |         5.542(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<5> |        11.461(F)|      SLOW  |         5.073(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<6> |        11.125(F)|      SLOW  |         4.980(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<7> |        11.683(F)|      SLOW  |         5.382(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<8> |        11.343(F)|      SLOW  |         5.239(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<9> |        11.052(F)|      SLOW  |         4.831(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<10>|        11.360(F)|      SLOW  |         5.100(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<11>|        11.031(F)|      SLOW  |         4.795(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<12>|        11.072(F)|      SLOW  |         5.059(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<13>|        11.659(F)|      SLOW  |         5.386(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<14>|        11.014(F)|      SLOW  |         4.698(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<15>|        10.516(F)|      SLOW  |         4.788(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<16>|        10.439(F)|      SLOW  |         4.742(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<17>|        10.757(F)|      SLOW  |         4.715(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<18>|        11.005(F)|      SLOW  |         4.670(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<19>|        10.523(F)|      SLOW  |         4.934(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<20>|        10.918(F)|      SLOW  |         4.845(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<21>|        10.839(F)|      SLOW  |         4.935(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<22>|        10.794(F)|      SLOW  |         4.783(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<23>|        11.067(F)|      SLOW  |         5.006(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<24>|        10.738(F)|      SLOW  |         4.522(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<25>|        10.955(F)|      SLOW  |         5.039(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<26>|        11.017(F)|      SLOW  |         4.593(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<27>|        10.972(F)|      SLOW  |         4.878(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<28>|        11.092(F)|      SLOW  |         4.912(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<29>|        10.218(F)|      SLOW  |         4.661(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<30>|        10.536(F)|      SLOW  |         4.773(F)|      FAST  |CLK_BUFGP         |   0.000|
+ReadData2<31>|        10.556(F)|      SLOW  |         4.692(F)|      FAST  |CLK_BUFGP         |   0.000|
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+ReadReg1<0>    |ReadData1<0>   |   14.597|
+ReadReg1<0>    |ReadData1<1>   |   17.304|
+ReadReg1<0>    |ReadData1<2>   |   14.738|
+ReadReg1<0>    |ReadData1<3>   |   14.899|
+ReadReg1<0>    |ReadData1<4>   |   14.842|
+ReadReg1<0>    |ReadData1<5>   |   14.946|
+ReadReg1<0>    |ReadData1<6>   |   13.980|
+ReadReg1<0>    |ReadData1<7>   |   15.309|
+ReadReg1<0>    |ReadData1<8>   |   15.264|
+ReadReg1<0>    |ReadData1<9>   |   14.747|
+ReadReg1<0>    |ReadData1<10>  |   15.240|
+ReadReg1<0>    |ReadData1<11>  |   16.372|
+ReadReg1<0>    |ReadData1<12>  |   15.356|
+ReadReg1<0>    |ReadData1<13>  |   16.273|
+ReadReg1<0>    |ReadData1<14>  |   15.308|
+ReadReg1<0>    |ReadData1<15>  |   13.809|
+ReadReg1<0>    |ReadData1<16>  |   14.555|
+ReadReg1<0>    |ReadData1<17>  |   13.871|
+ReadReg1<0>    |ReadData1<18>  |   17.314|
+ReadReg1<0>    |ReadData1<19>  |   17.060|
+ReadReg1<0>    |ReadData1<20>  |   16.383|
+ReadReg1<0>    |ReadData1<21>  |   16.011|
+ReadReg1<0>    |ReadData1<22>  |   16.524|
+ReadReg1<0>    |ReadData1<23>  |   15.908|
+ReadReg1<0>    |ReadData1<24>  |   16.006|
+ReadReg1<0>    |ReadData1<25>  |   16.713|
+ReadReg1<0>    |ReadData1<26>  |   17.131|
+ReadReg1<0>    |ReadData1<27>  |   16.993|
+ReadReg1<0>    |ReadData1<28>  |   16.422|
+ReadReg1<0>    |ReadData1<29>  |   16.886|
+ReadReg1<0>    |ReadData1<30>  |   16.807|
+ReadReg1<0>    |ReadData1<31>  |   17.091|
+ReadReg1<1>    |ReadData1<0>   |   15.156|
+ReadReg1<1>    |ReadData1<1>   |   17.450|
+ReadReg1<1>    |ReadData1<2>   |   15.443|
+ReadReg1<1>    |ReadData1<3>   |   15.250|
+ReadReg1<1>    |ReadData1<4>   |   15.418|
+ReadReg1<1>    |ReadData1<5>   |   15.481|
+ReadReg1<1>    |ReadData1<6>   |   14.508|
+ReadReg1<1>    |ReadData1<7>   |   15.937|
+ReadReg1<1>    |ReadData1<8>   |   16.085|
+ReadReg1<1>    |ReadData1<9>   |   14.818|
+ReadReg1<1>    |ReadData1<10>  |   15.795|
+ReadReg1<1>    |ReadData1<11>  |   16.143|
+ReadReg1<1>    |ReadData1<12>  |   15.612|
+ReadReg1<1>    |ReadData1<13>  |   16.746|
+ReadReg1<1>    |ReadData1<14>  |   15.726|
+ReadReg1<1>    |ReadData1<15>  |   13.807|
+ReadReg1<1>    |ReadData1<16>  |   14.145|
+ReadReg1<1>    |ReadData1<17>  |   13.926|
+ReadReg1<1>    |ReadData1<18>  |   17.318|
+ReadReg1<1>    |ReadData1<19>  |   16.948|
+ReadReg1<1>    |ReadData1<20>  |   16.688|
+ReadReg1<1>    |ReadData1<21>  |   16.241|
+ReadReg1<1>    |ReadData1<22>  |   16.694|
+ReadReg1<1>    |ReadData1<23>  |   16.254|
+ReadReg1<1>    |ReadData1<24>  |   16.127|
+ReadReg1<1>    |ReadData1<25>  |   16.627|
+ReadReg1<1>    |ReadData1<26>  |   16.994|
+ReadReg1<1>    |ReadData1<27>  |   17.029|
+ReadReg1<1>    |ReadData1<28>  |   16.347|
+ReadReg1<1>    |ReadData1<29>  |   16.853|
+ReadReg1<1>    |ReadData1<30>  |   16.591|
+ReadReg1<1>    |ReadData1<31>  |   16.800|
+ReadReg1<2>    |ReadData1<0>   |   12.929|
+ReadReg1<2>    |ReadData1<1>   |   14.961|
+ReadReg1<2>    |ReadData1<2>   |   12.575|
+ReadReg1<2>    |ReadData1<3>   |   12.230|
+ReadReg1<2>    |ReadData1<4>   |   13.318|
+ReadReg1<2>    |ReadData1<5>   |   13.391|
+ReadReg1<2>    |ReadData1<6>   |   13.012|
+ReadReg1<2>    |ReadData1<7>   |   13.156|
+ReadReg1<2>    |ReadData1<8>   |   13.413|
+ReadReg1<2>    |ReadData1<9>   |   11.566|
+ReadReg1<2>    |ReadData1<10>  |   13.323|
+ReadReg1<2>    |ReadData1<11>  |   14.131|
+ReadReg1<2>    |ReadData1<12>  |   14.027|
+ReadReg1<2>    |ReadData1<13>  |   13.868|
+ReadReg1<2>    |ReadData1<14>  |   12.180|
+ReadReg1<2>    |ReadData1<15>  |   11.443|
+ReadReg1<2>    |ReadData1<16>  |   13.561|
+ReadReg1<2>    |ReadData1<17>  |   11.883|
+ReadReg1<2>    |ReadData1<18>  |   14.404|
+ReadReg1<2>    |ReadData1<19>  |   15.050|
+ReadReg1<2>    |ReadData1<20>  |   13.145|
+ReadReg1<2>    |ReadData1<21>  |   13.348|
+ReadReg1<2>    |ReadData1<22>  |   14.951|
+ReadReg1<2>    |ReadData1<23>  |   14.403|
+ReadReg1<2>    |ReadData1<24>  |   13.339|
+ReadReg1<2>    |ReadData1<25>  |   14.321|
+ReadReg1<2>    |ReadData1<26>  |   15.442|
+ReadReg1<2>    |ReadData1<27>  |   14.972|
+ReadReg1<2>    |ReadData1<28>  |   14.723|
+ReadReg1<2>    |ReadData1<29>  |   15.593|
+ReadReg1<2>    |ReadData1<30>  |   15.210|
+ReadReg1<2>    |ReadData1<31>  |   15.021|
+ReadReg1<3>    |ReadData1<0>   |   12.947|
+ReadReg1<3>    |ReadData1<1>   |   14.802|
+ReadReg1<3>    |ReadData1<2>   |   12.907|
+ReadReg1<3>    |ReadData1<3>   |   12.427|
+ReadReg1<3>    |ReadData1<4>   |   13.878|
+ReadReg1<3>    |ReadData1<5>   |   13.865|
+ReadReg1<3>    |ReadData1<6>   |   13.674|
+ReadReg1<3>    |ReadData1<7>   |   13.076|
+ReadReg1<3>    |ReadData1<8>   |   13.956|
+ReadReg1<3>    |ReadData1<9>   |   13.888|
+ReadReg1<3>    |ReadData1<10>  |   13.452|
+ReadReg1<3>    |ReadData1<11>  |   14.216|
+ReadReg1<3>    |ReadData1<12>  |   14.121|
+ReadReg1<3>    |ReadData1<13>  |   13.563|
+ReadReg1<3>    |ReadData1<14>  |   13.668|
+ReadReg1<3>    |ReadData1<15>  |   13.646|
+ReadReg1<3>    |ReadData1<16>  |   13.999|
+ReadReg1<3>    |ReadData1<17>  |   13.972|
+ReadReg1<3>    |ReadData1<18>  |   15.406|
+ReadReg1<3>    |ReadData1<19>  |   15.811|
+ReadReg1<3>    |ReadData1<20>  |   14.854|
+ReadReg1<3>    |ReadData1<21>  |   15.202|
+ReadReg1<3>    |ReadData1<22>  |   15.485|
+ReadReg1<3>    |ReadData1<23>  |   15.836|
+ReadReg1<3>    |ReadData1<24>  |   15.867|
+ReadReg1<3>    |ReadData1<25>  |   15.969|
+ReadReg1<3>    |ReadData1<26>  |   15.786|
+ReadReg1<3>    |ReadData1<27>  |   15.975|
+ReadReg1<3>    |ReadData1<28>  |   15.375|
+ReadReg1<3>    |ReadData1<29>  |   16.404|
+ReadReg1<3>    |ReadData1<30>  |   15.928|
+ReadReg1<3>    |ReadData1<31>  |   15.893|
+ReadReg1<4>    |ReadData1<0>   |   12.423|
+ReadReg1<4>    |ReadData1<1>   |   13.486|
+ReadReg1<4>    |ReadData1<2>   |   11.696|
+ReadReg1<4>    |ReadData1<3>   |   11.607|
+ReadReg1<4>    |ReadData1<4>   |   12.233|
+ReadReg1<4>    |ReadData1<5>   |   11.886|
+ReadReg1<4>    |ReadData1<6>   |   11.565|
+ReadReg1<4>    |ReadData1<7>   |   12.218|
+ReadReg1<4>    |ReadData1<8>   |   12.130|
+ReadReg1<4>    |ReadData1<9>   |   11.633|
+ReadReg1<4>    |ReadData1<10>  |   11.998|
+ReadReg1<4>    |ReadData1<11>  |   12.776|
+ReadReg1<4>    |ReadData1<12>  |   12.345|
+ReadReg1<4>    |ReadData1<13>  |   11.904|
+ReadReg1<4>    |ReadData1<14>  |   11.754|
+ReadReg1<4>    |ReadData1<15>  |   10.967|
+ReadReg1<4>    |ReadData1<16>  |   11.479|
+ReadReg1<4>    |ReadData1<17>  |   11.791|
+ReadReg1<4>    |ReadData1<18>  |   13.018|
+ReadReg1<4>    |ReadData1<19>  |   13.960|
+ReadReg1<4>    |ReadData1<20>  |   12.927|
+ReadReg1<4>    |ReadData1<21>  |   13.063|
+ReadReg1<4>    |ReadData1<22>  |   13.588|
+ReadReg1<4>    |ReadData1<23>  |   13.655|
+ReadReg1<4>    |ReadData1<24>  |   13.577|
+ReadReg1<4>    |ReadData1<25>  |   13.399|
+ReadReg1<4>    |ReadData1<26>  |   14.199|
+ReadReg1<4>    |ReadData1<27>  |   13.835|
+ReadReg1<4>    |ReadData1<28>  |   13.845|
+ReadReg1<4>    |ReadData1<29>  |   14.733|
+ReadReg1<4>    |ReadData1<30>  |   14.330|
+ReadReg1<4>    |ReadData1<31>  |   13.908|
+ReadReg2<0>    |ReadData2<0>   |   15.652|
+ReadReg2<0>    |ReadData2<1>   |   18.496|
+ReadReg2<0>    |ReadData2<2>   |   14.139|
+ReadReg2<0>    |ReadData2<3>   |   15.518|
+ReadReg2<0>    |ReadData2<4>   |   14.938|
+ReadReg2<0>    |ReadData2<5>   |   14.618|
+ReadReg2<0>    |ReadData2<6>   |   13.861|
+ReadReg2<0>    |ReadData2<7>   |   15.680|
+ReadReg2<0>    |ReadData2<8>   |   15.540|
+ReadReg2<0>    |ReadData2<9>   |   13.807|
+ReadReg2<0>    |ReadData2<10>  |   14.747|
+ReadReg2<0>    |ReadData2<11>  |   16.073|
+ReadReg2<0>    |ReadData2<12>  |   15.342|
+ReadReg2<0>    |ReadData2<13>  |   17.339|
+ReadReg2<0>    |ReadData2<14>  |   15.204|
+ReadReg2<0>    |ReadData2<15>  |   12.943|
+ReadReg2<0>    |ReadData2<16>  |   12.977|
+ReadReg2<0>    |ReadData2<17>  |   12.411|
+ReadReg2<0>    |ReadData2<18>  |   16.505|
+ReadReg2<0>    |ReadData2<19>  |   16.850|
+ReadReg2<0>    |ReadData2<20>  |   16.189|
+ReadReg2<0>    |ReadData2<21>  |   14.637|
+ReadReg2<0>    |ReadData2<22>  |   16.511|
+ReadReg2<0>    |ReadData2<23>  |   15.088|
+ReadReg2<0>    |ReadData2<24>  |   14.163|
+ReadReg2<0>    |ReadData2<25>  |   16.993|
+ReadReg2<0>    |ReadData2<26>  |   14.548|
+ReadReg2<0>    |ReadData2<27>  |   16.741|
+ReadReg2<0>    |ReadData2<28>  |   15.903|
+ReadReg2<0>    |ReadData2<29>  |   15.878|
+ReadReg2<0>    |ReadData2<30>  |   15.497|
+ReadReg2<0>    |ReadData2<31>  |   15.214|
+ReadReg2<1>    |ReadData2<0>   |   15.776|
+ReadReg2<1>    |ReadData2<1>   |   17.850|
+ReadReg2<1>    |ReadData2<2>   |   14.178|
+ReadReg2<1>    |ReadData2<3>   |   15.020|
+ReadReg2<1>    |ReadData2<4>   |   15.352|
+ReadReg2<1>    |ReadData2<5>   |   14.802|
+ReadReg2<1>    |ReadData2<6>   |   13.484|
+ReadReg2<1>    |ReadData2<7>   |   16.175|
+ReadReg2<1>    |ReadData2<8>   |   16.041|
+ReadReg2<1>    |ReadData2<9>   |   13.646|
+ReadReg2<1>    |ReadData2<10>  |   15.363|
+ReadReg2<1>    |ReadData2<11>  |   14.902|
+ReadReg2<1>    |ReadData2<12>  |   14.762|
+ReadReg2<1>    |ReadData2<13>  |   16.091|
+ReadReg2<1>    |ReadData2<14>  |   14.897|
+ReadReg2<1>    |ReadData2<15>  |   12.886|
+ReadReg2<1>    |ReadData2<16>  |   12.485|
+ReadReg2<1>    |ReadData2<17>  |   11.895|
+ReadReg2<1>    |ReadData2<18>  |   16.361|
+ReadReg2<1>    |ReadData2<19>  |   16.273|
+ReadReg2<1>    |ReadData2<20>  |   15.663|
+ReadReg2<1>    |ReadData2<21>  |   15.149|
+ReadReg2<1>    |ReadData2<22>  |   16.228|
+ReadReg2<1>    |ReadData2<23>  |   15.269|
+ReadReg2<1>    |ReadData2<24>  |   14.756|
+ReadReg2<1>    |ReadData2<25>  |   15.947|
+ReadReg2<1>    |ReadData2<26>  |   14.121|
+ReadReg2<1>    |ReadData2<27>  |   16.730|
+ReadReg2<1>    |ReadData2<28>  |   15.713|
+ReadReg2<1>    |ReadData2<29>  |   15.479|
+ReadReg2<1>    |ReadData2<30>  |   15.495|
+ReadReg2<1>    |ReadData2<31>  |   15.210|
+ReadReg2<2>    |ReadData2<0>   |   11.702|
+ReadReg2<2>    |ReadData2<1>   |   13.479|
+ReadReg2<2>    |ReadData2<2>   |   10.555|
+ReadReg2<2>    |ReadData2<3>   |   10.888|
+ReadReg2<2>    |ReadData2<4>   |   10.840|
+ReadReg2<2>    |ReadData2<5>   |   10.473|
+ReadReg2<2>    |ReadData2<6>   |   10.486|
+ReadReg2<2>    |ReadData2<7>   |   10.747|
+ReadReg2<2>    |ReadData2<8>   |   11.186|
+ReadReg2<2>    |ReadData2<9>   |    9.887|
+ReadReg2<2>    |ReadData2<10>  |   10.574|
+ReadReg2<2>    |ReadData2<11>  |   10.498|
+ReadReg2<2>    |ReadData2<12>  |   10.573|
+ReadReg2<2>    |ReadData2<13>  |   10.580|
+ReadReg2<2>    |ReadData2<14>  |    9.701|
+ReadReg2<2>    |ReadData2<15>  |    9.360|
+ReadReg2<2>    |ReadData2<16>  |   10.385|
+ReadReg2<2>    |ReadData2<17>  |    9.866|
+ReadReg2<2>    |ReadData2<18>  |   11.912|
+ReadReg2<2>    |ReadData2<19>  |   12.679|
+ReadReg2<2>    |ReadData2<20>  |   11.111|
+ReadReg2<2>    |ReadData2<21>  |   11.099|
+ReadReg2<2>    |ReadData2<22>  |   11.911|
+ReadReg2<2>    |ReadData2<23>  |   11.864|
+ReadReg2<2>    |ReadData2<24>  |   10.964|
+ReadReg2<2>    |ReadData2<25>  |   11.916|
+ReadReg2<2>    |ReadData2<26>  |   12.069|
+ReadReg2<2>    |ReadData2<27>  |   12.305|
+ReadReg2<2>    |ReadData2<28>  |   12.223|
+ReadReg2<2>    |ReadData2<29>  |   12.136|
+ReadReg2<2>    |ReadData2<30>  |   12.314|
+ReadReg2<2>    |ReadData2<31>  |   12.623|
+ReadReg2<3>    |ReadData2<0>   |   11.709|
+ReadReg2<3>    |ReadData2<1>   |   12.927|
+ReadReg2<3>    |ReadData2<2>   |   10.717|
+ReadReg2<3>    |ReadData2<3>   |   11.382|
+ReadReg2<3>    |ReadData2<4>   |   11.375|
+ReadReg2<3>    |ReadData2<5>   |    9.798|
+ReadReg2<3>    |ReadData2<6>   |   10.297|
+ReadReg2<3>    |ReadData2<7>   |   11.048|
+ReadReg2<3>    |ReadData2<8>   |   10.835|
+ReadReg2<3>    |ReadData2<9>   |    9.398|
+ReadReg2<3>    |ReadData2<10>  |   10.723|
+ReadReg2<3>    |ReadData2<11>  |    9.763|
+ReadReg2<3>    |ReadData2<12>  |   10.816|
+ReadReg2<3>    |ReadData2<13>  |   10.688|
+ReadReg2<3>    |ReadData2<14>  |    8.877|
+ReadReg2<3>    |ReadData2<15>  |    9.615|
+ReadReg2<3>    |ReadData2<16>  |    9.756|
+ReadReg2<3>    |ReadData2<17>  |    9.691|
+ReadReg2<3>    |ReadData2<18>  |   10.093|
+ReadReg2<3>    |ReadData2<19>  |   10.855|
+ReadReg2<3>    |ReadData2<20>  |   10.335|
+ReadReg2<3>    |ReadData2<21>  |   10.135|
+ReadReg2<3>    |ReadData2<22>  |   10.260|
+ReadReg2<3>    |ReadData2<23>  |   10.645|
+ReadReg2<3>    |ReadData2<24>  |    9.797|
+ReadReg2<3>    |ReadData2<25>  |   10.823|
+ReadReg2<3>    |ReadData2<26>  |   10.444|
+ReadReg2<3>    |ReadData2<27>  |   10.577|
+ReadReg2<3>    |ReadData2<28>  |   11.340|
+ReadReg2<3>    |ReadData2<29>  |   11.056|
+ReadReg2<3>    |ReadData2<30>  |   10.716|
+ReadReg2<3>    |ReadData2<31>  |   10.937|
+ReadReg2<4>    |ReadData2<0>   |   11.924|
+ReadReg2<4>    |ReadData2<1>   |   12.364|
+ReadReg2<4>    |ReadData2<2>   |   10.160|
+ReadReg2<4>    |ReadData2<3>   |   10.668|
+ReadReg2<4>    |ReadData2<4>   |   10.754|
+ReadReg2<4>    |ReadData2<5>   |    9.622|
+ReadReg2<4>    |ReadData2<6>   |    9.505|
+ReadReg2<4>    |ReadData2<7>   |   10.780|
+ReadReg2<4>    |ReadData2<8>   |   10.040|
+ReadReg2<4>    |ReadData2<9>   |    8.890|
+ReadReg2<4>    |ReadData2<10>  |   10.499|
+ReadReg2<4>    |ReadData2<11>  |    9.302|
+ReadReg2<4>    |ReadData2<12>  |    9.877|
+ReadReg2<4>    |ReadData2<13>  |   10.102|
+ReadReg2<4>    |ReadData2<14>  |    8.297|
+ReadReg2<4>    |ReadData2<15>  |    9.141|
+ReadReg2<4>    |ReadData2<16>  |    8.996|
+ReadReg2<4>    |ReadData2<17>  |    9.151|
+ReadReg2<4>    |ReadData2<18>  |    9.953|
+ReadReg2<4>    |ReadData2<19>  |   10.593|
+ReadReg2<4>    |ReadData2<20>  |   10.254|
+ReadReg2<4>    |ReadData2<21>  |    9.888|
+ReadReg2<4>    |ReadData2<22>  |   10.195|
+ReadReg2<4>    |ReadData2<23>  |   10.426|
+ReadReg2<4>    |ReadData2<24>  |    9.726|
+ReadReg2<4>    |ReadData2<25>  |   10.054|
+ReadReg2<4>    |ReadData2<26>  |   10.232|
+ReadReg2<4>    |ReadData2<27>  |   10.279|
+ReadReg2<4>    |ReadData2<28>  |   10.520|
+ReadReg2<4>    |ReadData2<29>  |   10.621|
+ReadReg2<4>    |ReadData2<30>  |   10.900|
+ReadReg2<4>    |ReadData2<31>  |   10.571|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Oct 30 17:23:05 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 154 MB
+
+
+

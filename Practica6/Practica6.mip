@@ -1,0 +1,16 @@
+Practica6
+E:\LabArqui\Practica6\
+Objects\
+1
+E:\LABARQUI\PRACTICA6\ex1.s
+0
+0
+1
+minic
+0
+0
+0
+0
+1
+objcopy.exe -O srec Practica6.out Practica6.srec
+80020000 start

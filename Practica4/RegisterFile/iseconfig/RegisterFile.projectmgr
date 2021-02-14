@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="RegisterFile" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/BancoRegistros - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|register.vhd</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral E:|LabArqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral E:|LabArqui|Practica4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R01 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R02 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R03 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R04 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R05 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R06 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R07 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R08 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R09 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R10 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R11 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R12 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R13 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R14 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R15 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R16 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R17 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R18 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R19 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R20 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R21 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R22 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R23 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R24 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R25 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R26 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R27 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R28 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R29 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R30 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - BancoRegistros - Behavioral/R31 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R01 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R02 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R03 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R04 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R05 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R06 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R07 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R08 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R09 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R10 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R11 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R12 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R13 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R14 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R15 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R16 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R17 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R18 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R19 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R20 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R21 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R22 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R23 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R24 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R25 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R26 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R27 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R28 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R29 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R30 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral/R31 - Registro32bits - Behavioral</ClosedNode>
+         <ClosedNode>/Registro32bits - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegistroPrueba.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>R - BancoRegistros - Behavioral (E:/LabArqui/Practica4/RegisterFile/BancoRegistros.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000189000000020000000000000000000000000200000064ffffffff000000810000000300000002000001890000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>R - BancoRegistros - Behavioral (E:/LabArqui/Practica4/RegisterFile/BancoRegistros.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000029f000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001d30000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>decoder.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000144000000010000000100000000000000000000000064ffffffff000000810000000000000001000001440000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/BancoRegistros_TB - behavior F:|Lab Arqui|Practica 4|RegisterFile|BancoRegistros_TB.vhd</ClosedNode>
+         <ClosedNode>/BancoRegistros_TB - behavior F:|Lab Arqui|Practica 4|RegisterFile|BancoRegistros_TB.vhd/uut - BancoRegistros - Behavioral</ClosedNode>
+         <ClosedNode>/Decoder_TB - behavior F:|Lab Arqui|Practica 4|RegisterFile|Decoder_TB.vhd</ClosedNode>
+         <ClosedNode>/Mux_TB - behavior F:|Lab Arqui|Practica 4|RegisterFile|Mux_TB.vhd</ClosedNode>
+         <ClosedNode>/RegisterFile - Behavioral F:|Lab Arqui|Practica 4|RegisterFile|RegisterFile.vhd/R - Registros32 - Behavioral</ClosedNode>
+         <ClosedNode>/TBRegisterFile - behavior F:|Lab Arqui|Practica 4|RegisterFile|TBRegisterFile.vhd/uut - RegisterFile - Behavioral</ClosedNode>
+         <ClosedNode>/TestBenchGeneral - behavior F:|Lab Arqui|Practica 4|RegisterFile|TestBenchGeneral.vhd</ClosedNode>
+         <ClosedNode>/TestBenchGeneral - behavior F:|Lab Arqui|Practica 4|RegisterFile|TestBenchGeneral.vhd/uut - RegisterFile - Behavioral/R - BancoRegistros - Behavioral</ClosedNode>
+         <ClosedNode>/TestBenchGeneral - behavior F:|Lab Arqui|Practica 4|RegisterFile|TestBenchGeneral.vhd/uut - RegisterFile - Behavioral/R - Registros32 - Behavioral</ClosedNode>
+         <ClosedNode>/TestBenchRegistro - behavior F:|Lab Arqui|Practica 4|RegisterFile|TestBenchRegistro.vhd</ClosedNode>
+         <ClosedNode>/testbench - behavior F:|Lab Arqui|Practica 4|RegisterFile|TBRegisterFile.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>TestBenchGeneral - behavior (F:/Lab Arqui/Practica 4/RegisterFile/TestBenchGeneral.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000182000000020000000000000000000000000200000064ffffffff000000810000000300000002000001820000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>TestBenchGeneral - behavior (F:/Lab Arqui/Practica 4/RegisterFile/TestBenchGeneral.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

@@ -1,0 +1,6 @@
+vhdl work "FlipFlopD.vhd"
+vhdl work "Registro32bits.vhd"
+vhdl work "mux32.vhd"
+vhdl work "decoder.vhd"
+vhdl work "BancoRegistros.vhd"
+vhdl work "RegisterFile.vhd"

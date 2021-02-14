@@ -1,0 +1,20 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/LabArqui/Practica 7/ControlUnit/ControlUnit_TB_isim_beh.exe -prj E:/LabArqui/Practica 7/ControlUnit/ControlUnit_TB_beh.prj work.ControlUnit_TB 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/LabArqui/Practica 7/ControlUnit/ControlUnit.vhd" into library work
+Parsing VHDL file "E:/LabArqui/Practica 7/ControlUnit/ControlUnit_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 78288 KB
+Fuse CPU Usage: 450 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity ControlUnit [controlunit_default]
+Compiling architecture behavior of entity controlunit_tb
+Time Resolution for simulation is 1ps.
+Compiled 5 VHDL Units
+Built simulation executable E:/LabArqui/Practica 7/ControlUnit/ControlUnit_TB_isim_beh.exe
+Fuse Memory Usage: 87124 KB
+Fuse CPU Usage: 500 ms

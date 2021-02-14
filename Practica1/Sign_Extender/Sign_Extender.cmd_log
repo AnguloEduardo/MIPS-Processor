@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "F:/Lab Arqui/Sign_Extender/Sign_Extender.xst" -ofn "F:/Lab Arqui/Sign_Extender/Sign_Extender.syr" 
+xst -intstyle ise -ifn "F:/Lab Arqui/Sign_Extender/Sign_Extender.xst" -ofn "F:/Lab Arqui/Sign_Extender/Sign_Extender.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Sign_Extender.ngc" Sign_Extender.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Sign_Extender_map.ncd Sign_Extender.ngd Sign_Extender.pcf 
+par -w -intstyle ise -ol high -mt off Sign_Extender_map.ncd Sign_Extender.ncd Sign_Extender.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Sign_Extender.twx Sign_Extender.ncd -o Sign_Extender.twr Sign_Extender.pcf 
+xst -intstyle ise -ifn "F:/Lab Arqui/Sign_Extender/Sign_Extender.xst" -ofn "F:/Lab Arqui/Sign_Extender/Sign_Extender.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Sign_Extender.ngc" Sign_Extender.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Sign_Extender_map.ncd Sign_Extender.ngd Sign_Extender.pcf 
+par -w -intstyle ise -ol high -mt off Sign_Extender_map.ncd Sign_Extender.ncd Sign_Extender.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Sign_Extender.twx Sign_Extender.ncd -o Sign_Extender.twr Sign_Extender.pcf 

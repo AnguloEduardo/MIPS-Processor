@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "F:/Lab Arqui/Practica1-Add/Test_Bench_Adder_isim_beh.exe" -prj "F:/Lab Arqui/Practica1-Add/Test_Bench_Adder_beh.prj" "work.Test_Bench_Adder" 
